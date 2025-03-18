@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Ramez Barbershop</h1>
+                <p class="subtitle">Getting your hair ready</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html" class="current-page">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>Contact Us</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4>We are located at </h4>
+                <p>husan - Metiana</p>
+                <p>Bethlehem</p>
+                <h4>Phone</h4>
+                <p>0556861345</p>
+            </div>
+            <div class="flex-item-right">
+                <form id="booking-form">
+                    <input type="date" id="date" name="date">
+                    <input type="time" id="time" name="time">
+                    <input type="number" id="number" name="number">
+                    <button type="submit">حجز</button>
+                </form>
+                <div id="appointments-list"></div>
+                <table id="bookings-table">
+                    <thead>
+                        <tr>
+                            <th>التاريخ</th>
+                            <th>الوقت</th>
+                            <th>رقم الهاتف</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">Johnsbarbershop.com</a></h3>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
